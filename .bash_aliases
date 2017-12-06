@@ -1,0 +1,23 @@
+alias vib='vim ~/.bash_aliases; source ~/.bash_aliases'
+
+alias ls='ls -GFh'
+alias la='ls -a'
+alias ll='ls -lh'
+alias l='ls'
+alias ..='cd ..; ls'
+alias fd='cd ~/Documents/fdx/; ls'
+alias cm='cd ~/Documents/cms/; ls'
+alias cms='cd ~/Documents/cms/; nodemon'
+alias run='npm run dev'
+alias db='bash initDB.sh'
+alias pancho="ssh -t cms 'sudo tail -f /var/log/upstart/pancho.log'"
+
+alias gs='git status'
+alias gd='git diff'
+alias gp='git pull'
+alias ga.='git add .; git status'
+alias ga='git add'
+alias gcm='git commit -m'
+alias gch='git checkout'
+alias gb='git branch'
+alias gl='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative'
